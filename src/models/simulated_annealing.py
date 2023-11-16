@@ -157,6 +157,12 @@ def assemble_state_seq_df(h_state_seqs:List,
 
     return state_seq_df
 
+def update_position_posterior():
+    """Update the saliency map over positions
+    """
+    
+    return
+
 def get_AbLM_likelihood(h_state_seqs: List,
                         h_mut_seqs: List,
                         h_mut_pos: List,
